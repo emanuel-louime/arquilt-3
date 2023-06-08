@@ -1,7 +1,7 @@
-import { initializeApp } from 'firebase/app';
-import { database } from 'firebase/database';
-import { storage } from 'firebase/storage';
+import { initializeApp, type FirebaseOptions} from 'firebase/app';
+import { getDatabase } from 'firebase/database';
+import { getStorage } from 'firebase/storage';
+import { FIREBASE_CONFIG } from '$env/static/private';
 
-const firebaseConfig = {
-    apiKey: 
-}
+const app = initializeApp(FIREBASE_CONFIG);
+export const database = getDatabase(app, )
