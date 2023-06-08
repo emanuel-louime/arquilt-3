@@ -27,3 +27,60 @@
     <input class="flex-items-b" id="mailList" type="checkbox">
     <input class="flex-items-b" id="submit" type="submit" value="Upload">
 </form>
+
+<style>
+    form {
+        color: #ffffd9;
+        background-color: transparent;
+        display: flex;
+        flex-direction: column;
+        padding: 12% 4%;
+        text-align: center;
+        font-size: 18px;
+    }
+
+    input option{
+        background-color: transparent;
+        color: #ffffd9;
+    }
+
+    mat-error {
+        color: #f11c03;
+        margin: 0px 0px 0px 0px;
+}
+
+
+.flex-items-a {
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+
+.flex-items-b {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+    padding-top: 2%;
+}
+
+input.submit{
+    background-color: #ffffd9;
+    border-radius: 6px;
+    border-color: #33393b;
+    font-size: 18px;
+    font-weight: bold;
+    color: #33393b;
+    width: 50%;
+    align-self: center;
+    border-style: outset;
+}
+
+h1 {
+    font-size: 32px;
+    font-weight: bold;
+    background: linear-gradient(to right,#1c03f1, #8fd28d, #ffffd9, #f11c03);
+   -webkit-background-clip: text;
+    background-clip: text;
+    clip: text;
+   -webkit-text-fill-color: transparent;
+}
+</style>
